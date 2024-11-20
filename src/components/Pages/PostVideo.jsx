@@ -119,8 +119,7 @@ class PostVideo extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <LatestBlogs2 bgcolor="bg-gray"/>
-                            <BlogComments/>
+                           
                             </div>
                         </div>
                     </div>

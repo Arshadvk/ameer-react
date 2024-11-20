@@ -19,7 +19,7 @@ class Home extends React.Component {
             <>
                 <Header />
                 <div className="page-content">
-                    <Banner/>
+                    {/* <Banner/> */}
                     <Slider />
                     <Specialization />
                     <About />

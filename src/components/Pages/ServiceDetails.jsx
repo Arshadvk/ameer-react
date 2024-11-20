@@ -2,26 +2,30 @@ import React from 'react';
 import { NavLink, useParams } from 'react-router-dom';
 import Header from './../Common/Header';
 import Footer from './../Common/Footer';
-import LatestBlogs2 from '../Elements/LatestBlogs2';
-import BlogComments from '../Elements/BlogComments';
+
 import Banner from './../Elements/Banner';
 
 const details = [
     {
         header: "Aluminum Scrap Buyers in Abu Dhabi",
-        image: "./../../images/service/aluminum/1.jpg",
+        image: "aluminum/aluminum-1.jpg",
+        img: "aluminum/aluminum.jpg",
+        description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? Look no further than Ameer Scrap & Metal Waste Trading LLC. We are dedicated to turning waste into wealth, one scrap at a time.",
+    },
+    {
+        header: "Container Buyer In Abu Dhabi",
+        image: "container/container-1.jpg",
+        img: "container/container-2.jpeg",
         description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? Look no further than Ameer Scrap & Metal Waste Trading LLC. We are dedicated to turning waste into wealth, one scrap at a time.",
     },
 ];
 
 const PostImage = () => {
     const { id } = useParams(); // Access the 'id' parameter from the URL
-    let num = 0;
+    let num =  id === "aluminum-scrap-buyers-in-abu-dhabi" ? 0 : "aluminum-scrap-buyers-in-abu-dhabi" ? 1 : 0
 
     // Dynamically determine the details index based on 'id'
-    if (id === "aluminum-scrap-buyers-in-abu-dhabi") {
-        num = 0;
-    }
+   
 
     const bnrimg = require('./../../images/banner/2.jpg');
 
@@ -31,8 +35,9 @@ const PostImage = () => {
             <div className="page-content">
                 <Banner
                     title={details[num].header}
-                    pagename="Post Image"
-                    bgimage={bnrimg}
+                    pagename={id}
+                    service={true}
+                    bgimage={require(`./../../images/service/${details[num].img}`)}
                 />
 
                 {/* SECTION CONTENT START */}
@@ -46,7 +51,7 @@ const PostImage = () => {
                                             <div className="portfolio-item">
                                                 <img
                                                     className="img-responsive"
-                                                    src={require("./../../images/blog/default/thum1.jpg")}
+                                                    src={require(`./../../images/service/${details[num].image}`)}
                                                     alt=""
                                                 />
                                             </div>
@@ -69,8 +74,7 @@ const PostImage = () => {
                                     {/* Additional content goes here */}
                                 </div>
                             </div>
-                            <LatestBlogs2 bgcolor="bg-gray" />
-                            <BlogComments />
+                            
                         </div>
                     </div>
                 </div>

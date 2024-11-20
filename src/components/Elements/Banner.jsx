@@ -18,6 +18,7 @@ class Banner extends React.Component {
                                 <div>
                                     <ul className="mt-breadcrumb breadcrumb-style-2">
                                         <li><NavLink to={"./"}>Home</NavLink></li>
+                                        {this.props.service ? <li><NavLink to={"/services"}>Services</NavLink></li>: ""}
                                         <li>{this.props.pagename}</li>
                                     </ul>
                                 </div>

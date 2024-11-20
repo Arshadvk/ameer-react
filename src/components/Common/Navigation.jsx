@@ -44,15 +44,33 @@ class Navigation extends React.Component {
                                 <NavLink to={"/service/container-buyer-in-abu-dhabi"}>Container Buyer</NavLink>
                                 </li>
                                 <li>
-                                <NavLink to={"/service/copper-scrap-buyers-in-abudhabi"}>Copper Scrap Buyer</NavLink>
+                                <NavLink to={"/service/copper-scrap-buyers-in-abu-dhabi"}>Copper Scrap Buyer</NavLink>
                                 </li>
                                 <li>
-                                <NavLink to={"/service/homepage4"}>Home-4</NavLink>
+                                <NavLink to={"/service/industrial-scrap-buyers-in-abu-dhabi"}>Industrial Scrap Buyer</NavLink>
                                 </li>
+
+                                <li>
+                                <NavLink to={"/service/metal-scrap-dealer-in-abu-dhabi"}>Metal Scrap Dealer</NavLink>
+                                </li>
+
+                                <li>
+                                <NavLink to={"/service/steel-scrap-in-abu-dhabi"}>Steel Scrap</NavLink>
+                                </li>
+
+                                <li>
+                                <NavLink to={"/service/scrap-yard-in-abudhabi"}>Scrap Yard Buyer</NavLink>
+                                </li>
+                                
                             </ul>
+
                         </li>
                         <li>
                         <NavLink to={"/about"}>About us</NavLink>
+                        </li>
+                        <li>
+
+                        <NavLink to={"/contactus"}>Contact us</NavLink>
                         </li>
                         <li>
                         <NavLink to={""}>Pages</NavLink>
@@ -96,20 +114,7 @@ class Navigation extends React.Component {
                                 <li><NavLink to={"/project-detail"}>Project Detail</NavLink></li>
                             </ul>
                         </li>
-                        <li className="submenu-direction">
-                            <NavLink to={""}>Shortcodes</NavLink>
-                            <ul className="sub-menu">
-                                <li><NavLink to={"/accordian"}>Accordian</NavLink></li>
-                                <li><NavLink to={"/button"}>Button</NavLink></li>
-                                <li><NavLink to={"/iconboxstyle"}>Icon box style</NavLink></li>
-                                <li><NavLink to={"/listgroup"}>List group</NavLink></li>
-                                <li><NavLink to={"/modalpopup"}>Modal popup</NavLink></li>
-                                <li><NavLink to={"/tabs"}>Tabs</NavLink></li>
-                                <li><NavLink to={"/table"}>Table</NavLink></li>
-                                <li><NavLink to={"/video"}>Video</NavLink></li>
-                                <li><NavLink to={"/iconfont"}>Icon Font</NavLink></li>
-                            </ul>
-                        </li>
+                      
                     </ul>
                 </div>
             </>
