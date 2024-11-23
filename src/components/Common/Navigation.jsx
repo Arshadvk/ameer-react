@@ -59,7 +59,7 @@ class Navigation extends React.Component {
                                 </li>
 
                                 <li>
-                                <NavLink to={"/service/scrap-yard-in-abudhabi"}>Scrap Yard Buyer</NavLink>
+                                <NavLink to={"/service/scrap-yard-in-abu-dhabi"}>Scrap Yard Buyer</NavLink>
                                 </li>
                                 
                             </ul>

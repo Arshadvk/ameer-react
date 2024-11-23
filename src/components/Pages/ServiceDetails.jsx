@@ -18,11 +18,41 @@ const details = [
         img: "container/container-2.jpeg",
         description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? Look no further than Ameer Scrap & Metal Waste Trading LLC. We are dedicated to turning waste into wealth, one scrap at a time.",
     },
+    {
+        header: "Copper Scrap Buyer In Abu Dhabi",
+        image: "copper/copper-1.jpg",
+        img: "copper/copper-2.jpeg",
+        description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? Look no further than Ameer Scrap & Metal Waste Trading LLC. We are dedicated to turning waste into wealth, one scrap at a time.",
+    },
+    {
+        header: "Industrial Scrap Buyer In Abu Dhabi",
+        image: "copper/copper-1.jpg",
+        img: "copper/copper-2.jpeg",
+        description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? Look no further than Ameer Scrap & Metal Waste Trading LLC. We are dedicated to turning waste into wealth, one scrap at a time.",
+    },
+    {
+        header: "Metal Scrap Dealer In Abu Dhabi",
+        image: "copper/copper-1.jpg",
+        img: "copper/copper-2.jpeg",
+        description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? Look no further than Ameer Scrap & Metal Waste Trading LLC. We are dedicated to turning waste into wealth, one scrap at a time.",
+    },
+    {
+        header: "Steel Scrap In Abu Dhabi",
+        image: "copper/copper-1.jpg",
+        img: "copper/copper-2.jpeg",
+        description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? Look no further than Ameer Scrap & Metal Waste Trading LLC. We are dedicated to turning waste into wealth, one scrap at a time.",
+    },
 ];
 
 const PostImage = () => {
     const { id } = useParams(); // Access the 'id' parameter from the URL
-    let num =  id === "aluminum-scrap-buyers-in-abu-dhabi" ? 0 : "aluminum-scrap-buyers-in-abu-dhabi" ? 1 : 0
+    let num =  id === "aluminum-scrap-buyers-in-abu-dhabi" ? 0 : 
+    id === "container-scrap-buyers-in-abu-dhabi" ? 1 : 
+    id === "copper-scrap-buyers-in-abu-dhabi" ? 2 : 
+    id === "industrial-scrap-buyers-in-abu-dhabi" ? 3 : 
+    id === "metal-scrap-dealer-in-abu-dhabi" ? 4 : 
+    id === "steel-scrap-in-abu-dhabi" ? 5 : 
+    id === "scrap-yard-in-abu-dhabi" ? 6 : 0
 
     // Dynamically determine the details index based on 'id'
    

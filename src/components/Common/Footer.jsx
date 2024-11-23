@@ -29,7 +29,7 @@ class Footer extends React.Component {
                                         <div className="logo-footer clearfix p-b15">
                                             <NavLink to={"./"}><img src={this.currentstate.logo} alt="" /></NavLink>
                                         </div>
-                                        <p className="max-w400">Today we can tell you, thanks to your passion, hard work creativity, and expertise, you delivered us the most beautiful house great looks.</p>
+                                        <p className="max-w400">What Can We Offer For You Flawless Experience Best Services Dedicated Support Fair-market scrap metal prices 01 State and federally certified scales 02 wide variety of ferrous and nonferrous metals</p>
                                         <ul className="social-icons  mt-social-links">
                                             <li><NavLink to={"#"} className="fa fa-google" /></li>
                                             <li><NavLink to={"#"} className="fa fa-rss" /></li>
@@ -47,7 +47,8 @@ class Footer extends React.Component {
                                             <li>10 Street 7 Musaffah , Abu Dhabi Uae</li>
                                             <li>info@ameerscrap.com</li>
                                             <li>(+971) 509 683 697</li>
-                                            <li>(+298) 146-6543-480</li>
+                                            <li>(+971) 552 030 266</li>
+                                            
                                         </ul>
                                     </div>
                                 </div>

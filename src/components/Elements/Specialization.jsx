@@ -12,7 +12,7 @@ class Specialization extends React.Component {
                         {/* IMAGE CAROUSEL START */}
                         <div className="section-content">
                             <div className="row">
-                                <div className="col-lg-3 col-md-4 col-sm-6 m-b30">
+                                <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 m-b30">
                                     <div className="image-effect-one hover-shadow">
                                         <img src={require('../../images/pic1.jpg')} alt=""/>
                                         <div className="figcaption">
@@ -22,17 +22,18 @@ class Specialization extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 col-md-4  col-sm-6 m-b30">
+                                <div className="col-lg-3 col-md-4  col-sm-6  col-xs-6  m-b30">
                                     <div className="image-effect-one hover-shadow">
                                         <img src={require('../../images/pic2.jpg')} alt="" />
-                                        <div className="figcaption">
-                                            <h4>Architecture</h4>
-                                            <p>Life is Architecture.</p>
+                                        <div className="figcaption bg-dark">
+                                            <h4>Renovation</h4>
+                                            <p>Dazzling Design</p>
                                             <NavLink to="/project-detail" ><i className="link-plus bg-primary" /></NavLink>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 col-md-4  col-sm-6 m-b30">
+
+                                <div className="col-lg-3 col-md-4  col-sm-6  col-xs-6  m-b30">
                                     <div className="image-effect-one hover-shadow">
                                         <img src={require('../../images/pic3.jpg')} alt="" />
                                         <div className="figcaption bg-dark">
@@ -42,19 +43,23 @@ class Specialization extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 col-md-12 col-sm-6 m-b30">
-                                    <div className="mt-box our-speciallization-content">
-                                        <h3 className="m-t0"><span className="font-weight-100">Building</span> <br />It better in concrete.</h3>
-                                        <p>When it comes to your house, don’t mess with the rest, trust the best. Making your vision come true, that is what we do.</p>
-                                        <NavLink to="/project-detail"  className="site-button btn-effect">View All</NavLink>
+
+                                <div className="col-lg-3 col-md-4  col-sm-6  col-xs-6  m-b30">
+                                    <div className="image-effect-one hover-shadow">
+                                        <img src={require('../../images/pic4.jpg')} alt="" />
+                                        <div className="figcaption bg-dark">
+                                            <h4>Renovation</h4>
+                                            <p>Dazzling Design</p>
+                                            <NavLink to="/project-detail" ><i className="link-plus bg-primary" /></NavLink>
+                                        </div>
                                     </div>
                                 </div>
+
+                                
                             </div>
                         </div>
                     </div>
-                    <div className="hilite-title text-right p-r50 text-uppercase text-pop-up-top">
-                        <strong>Welcome</strong>
-                    </div>
+                   
                 </div>
             </>
         );
