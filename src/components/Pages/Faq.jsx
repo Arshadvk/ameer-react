@@ -3,7 +3,7 @@ import Header from './../Common/Header';
 import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
 
-var bnrimg = require('./../../images/banner/4.jpg');
+var bnrimg = require('./../../images/banner/4.webp');
 
 class Faq extends React.Component {
     render() {

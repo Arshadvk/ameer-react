@@ -8,8 +8,9 @@ import OurServices3 from '../Elements/OurServices3';
 import OurValue3 from '../Elements/OurValue3';
 import OurProject3 from '../Elements/OurProject3';
 import Faq from '../Elements/Faq';
+import Blogs from '../Elements/Blogs';
 
-var bnrimg = require('./../../images/banner/1.jpg');
+var bnrimg = require('./../../images/banner/4.webp');
 
 class Services extends React.Component {
     render() {
@@ -18,13 +19,9 @@ class Services extends React.Component {
 
                 <Header />
                 <div className="page-content">
-                    <Banner title="Diversified services. Unvarying quality." pagename="Services" bgimage={bnrimg}/>
-                    <AboutCompany />
-                    <Specialization3 />
-                    <OurServices3 />
-                    <OurValue3 />
-                    <OurProject3 />
-                    <Faq />
+                    <Banner title="Services we Provide" pagename="Services" bgimage={bnrimg}/>
+                    <Blogs/>
+
                 <Footer />
                     
                 </div>

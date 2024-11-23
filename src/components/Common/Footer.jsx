@@ -57,9 +57,9 @@ class Footer extends React.Component {
                                     <div className="widget widget_services inline-links">
                                         <h4 className="widget-title">Useful links</h4>
                                         <ul>
-                                            <li><NavLink to={"/about"}>About</NavLink></li>
-                                            <li><NavLink to={"/project-grid"}>Projects</NavLink></li>
-                                            <li><NavLink to={"/blog-grid"}>Blog</NavLink></li>
+                                            <li><NavLink to={"/"}>Home</NavLink></li>
+                                            <li><NavLink to={"/"}>Services</NavLink></li>
+                                            <li><NavLink to={"/about"}>About us</NavLink></li>
                                             <li><NavLink to={"/contactus"}>Contact Us</NavLink></li>
                                         </ul>
                                     </div>

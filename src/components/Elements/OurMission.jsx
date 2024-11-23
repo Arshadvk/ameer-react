@@ -25,17 +25,19 @@ class OurMission extends React.Component {
                             <div className="row">
                                 <div className="col-md-4 col-sm-6">
                                     <div className="mission-left bg-white m-b30 p-a30 bg-no-repeat bg-bottom-left" style={{ backgroundImage: 'url(' + img3 + ')' }}>
-                                        <h3 className="m-t0"><span className="font-weight-100"> Site Areas</span><br /> what we serve</h3>
-                                        <p>lorem Ipsum available, but the majority have suffered alteration in some form, by ious versi ons have evolved over the years, sometimes by accident</p>
+                                        <h3 className="m-t0">Our mission</h3>
+                                        <p>Our mission is to turn waste into value by promoting sustainable recycling practices and contributing to a cleaner, greener environment in Abu Dhabi.</p>
                                         <ul className="list-angle-right anchor-line">
-                                            <li><NavLink to={"/services"}>Construction Management</NavLink></li>
-                                            <li><NavLink to={"/services"}>Pre Construction Services</NavLink></li>
-                                            <li><NavLink to={"/services"}>Contract Administration</NavLink></li>
-                                            <li><NavLink to={"/services"}>Implementation</NavLink></li>
-                                            <li><NavLink to={"/services"}>Leed consultation</NavLink></li>
+                                            <li><NavLink to={"/service/aluminum-scrap-buyers-in-abu-dhabi"}>Aluminum Scrap</NavLink></li>
+                                            <li><NavLink to={"/service/container-buyer-in-abu-dhabi"}>Container Buyer</NavLink></li>
+                                            <li><NavLink to={"/service/copper-scrap-buyers-in-abu-dhabi"}>Copper Scrap Buyer</NavLink></li>
+                                            <li><NavLink to={"/service/industrial-scrap-buyers-in-abu-dhabi"}>Industrial Scrap Buyer</NavLink></li>
+                                            <li><NavLink to={"/service/metal-scrap-dealer-in-abu-dhabi"}>Metal Scrap Dealer</NavLink></li>
+                                            <li><NavLink to={"/service/steel-scrap-in-abu-dhabi"}>Steel Scrap</NavLink></li>
+                                            <li><NavLink to={"/service/scrap-yard-in-abu-dhabi"}>Scrap Yard</NavLink></li>
                                         </ul>
                                         <div className="text-right">
-                                            <NavLink to="/about" className="site-button-link" data-hover="Read More">Read More <i className="fa fa-angle-right arrow-animation" /></NavLink>
+                                            {/* <NavLink to="/about" className="site-button-link" data-hover="Read More">Read More <i className="fa fa-angle-right arrow-animation" /></NavLink> */}
                                         </div>
                                     </div>
                                 </div>

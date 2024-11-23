@@ -5,7 +5,7 @@ import Banner from './../Elements/Banner';
 import ShortcodesNav from './../Elements/ShortcodesNav';
 import ReactPlayer from 'react-player';
 
-var bnrimg = require('./../../images/banner/4.jpg');
+var bnrimg = require('./../../images/banner/4.webp');
 
 class Video extends React.Component {
     

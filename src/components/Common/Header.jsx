@@ -59,12 +59,12 @@ class Header extends React.Component {
                                 <div className="mt-topbar-left clearfix">
                                     <ul className="list-unstyled e-p-bx pull-right">
                                         <li><i className="fa fa-map-marker" /> 10 Street 7 Musaffah , Abu Dhabi Uae</li>
-                                        <li><i className="fa fa-phone" />(+971) 509 683 697</li>
+                                        {/* <li><i className="fa fa-phone" />(+971) 509 683 697</li> */}
                                         <li><i className="fa fa-clock-o" />Saturday - Thursday 6:00 am - 11:00 pm</li>
                                     </ul>
                                 </div>
                                 <div className="mt-topbar-right clearfix">
-                                    <div className="appint-btn"><NavLink to={"#"} className="site-button">Make an Appointment</NavLink></div>
+                                    <div className="appint-btn"><a href="tel:+971509683697" className="site-button"> <i className="fa fa-phone" />  (+971) 509 683 697</a></div>
                                 </div>
                             </div>
                         </div>
@@ -88,11 +88,7 @@ class Header extends React.Component {
                                 </button>
                                 {/* ETRA Nav */}
                                 <div className="extra-nav">
-                                    <div className="extra-cell">
-                                        <NavLink to={"#"} onClick={this.handleSearchToggle}> 
-                                            <i className="fa fa-search" />
-                                        </NavLink>
-                                    </div>
+                                   
                                     <div className="extra-cell">
                                         <NavLink to={"#"} className="contact-slide-show" onClick={this.handleQuoteToggle}><i className="fa fa-angle-left arrow-animation" /></NavLink>
                                     </div>
@@ -109,6 +105,7 @@ class Header extends React.Component {
                                                     <div className="icon-content">
                                                         <h5 className="m-t0 font-weight-500">Phone number</h5>
                                                         <p>(+971) 509 683 697</p>
+                                                        <p>(+971) 552 030 266</p>
                                                     </div>
                                                 </div>
                                                 <div className="mt-icon-box-wraper center p-b30">
@@ -137,7 +134,7 @@ class Header extends React.Component {
                                                 </ul>
                                             </div>
                                             <div className="text-center">
-                                                <h4 className="font-weight-600">©  2022 7xtheme</h4>
+                                                <h4 className="font-weight-600">©  2022 Arshad vk</h4>
                                             </div>
                                         </div>
                                     </div>

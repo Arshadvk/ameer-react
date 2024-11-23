@@ -28,19 +28,57 @@ const blogs = [
     }
 ]
 
+const service = [
+    {
+        header: "Aluminum Scrap Buyers in Abu Dhabi",
+        image: require('./../../images/service/aluminum/aluminum-1.jpg'),
+        description: "Ameer Scrap is your trusted partner for transforming aluminum scrap into value in Abu Dhabi  ..."
+    },
+    {
+        header: "Container Buyer In Abu Dhabi",
+        image: require('./../../images/service/container/container-2.jpeg'),
+        description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? ...",
+    },
+    {
+        header: "Copper Scrap Buyer In Abu Dhabi",
+        image: require('./../../images/service/copper/copper-1.jpg'),
+        description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? ...",
+    },
+    {
+        header: "Industrial Scrap Buyer In Abu Dhabi",
+        image: require('./../../images/service/industrial/industrial-2.webp'),
+        description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? ...",
+    },
+    {
+        header: "Metal Scrap Dealer In Abu Dhabi",
+        image: require('./../../images/service/metal/metal-2.webp'),
+        description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? ...",
+    },
+    {
+        header: "Steel Scrap In Abu Dhabi",
+        image: require('./../../images/service/steel/steel-2.jpg'),
+        description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? ...",
+    },
+    {
+        header: "Scrap Yard In Abu Dhabi",
+        image: require('./../../images/service/steel/steel-2.jpg'),
+        description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? ...",
+    },
+];
+
 var bnr1 = require('./../../images/background/bg5.jpg');
 
 class Blogs extends React.Component {
     render() {
         return (
             <>
-                <div className="section-full mobile-page-padding p-t80 p-b30 square_shape1 bg-parallax bg-cover" data-stellar-background-ratio="0.5" style={{backgroundImage:"url(" + bnr1 + ")"}}>
+                <div className="section-full mobile-page-padding p-t80 p-b30 square_shape1 bg-parallax bg-cover" data-stellar-background-ratio="0.5" >
                     <div className="container">
                         {/* TITLE START */}
                         <div className="section-head ">
                             <div className="mt-separator-outer separator-center">
                                 <div className="mt-separator">
-                                    <h2 className="text-white text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Latest</span> Blog</h2>
+                                    <h2 className="text-white text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Our Services</span></h2>
                                 </div>
                             </div>
                         </div>
@@ -48,23 +86,17 @@ class Blogs extends React.Component {
                         {/* IMAGE CAROUSEL START */}
                         <div className="section-content">
                             <div className="row">
-                                {blogs.map((item, index) => (
-                                    <div className="col-md-4 col-sm-6" key={index}>
+                                {service.map((item, index) => (
+                                    <div className="col-md-6 col-sm-6 col-xs-6" key={index}>
                                         <div className="mt-box blog-post latest-blog-3 date-style-1 bg-white m-b30">
                                             <div className="mt-post-media mt-img-overlay7">
                                                 <NavLink to="/post-image"><img src={item.image} alt=""/></NavLink>
                                             </div>
                                             <div className="mt-post-info p-a30">
                                                 <div className="post-overlay-position">
-                                                    <div className="mt-post-meta ">
-                                                        <ul>
-                                                            <li className="post-date"><strong className="text-primary">{item.date}</strong> <span>{item.month} {item.year}</span></li>
-                                                            <li className="post-author">By <NavLink to="/post-image">Admin</NavLink> </li>
-                                                            <li className="post-comment"><NavLink to="/post-image">2 comment</NavLink> </li>
-                                                        </ul>
-                                                    </div>
+                                                    
                                                     <div className="mt-post-title ">
-                                                        <h4 className="post-title m-b0">{item.title}</h4>
+                                                        <h4 className="post-title m-b0">{item.header}</h4>
                                                     </div>
                                                     <div className="mt-post-text">
                                                         <p>{item.description}</p>
@@ -81,7 +113,7 @@ class Blogs extends React.Component {
                         </div>
                     </div>
                     <div className="hilite-title text-right p-r50 text-uppercase hilite-dark">
-                        <strong>Blog</strong>
+                        <strong>Services</strong>
                     </div>
                 </div>
             </>

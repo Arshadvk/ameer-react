@@ -4,7 +4,7 @@ import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
 import ShortcodesNav from './../Elements/ShortcodesNav';
 
-var bnrimg = require('./../../images/banner/4.jpg');
+var bnrimg = require('./../../images/banner/4.webp');
 
 class IconFont extends React.Component {
     render() {

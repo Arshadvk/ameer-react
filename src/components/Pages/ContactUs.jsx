@@ -4,7 +4,7 @@ import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
 import GoogleMapReact from 'google-map-react';
 
-var bnrimg = require('./../../images/banner/4.jpg');
+var bnrimg = require('./../../images/banner/4.webp');
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -12,8 +12,8 @@ class ContactUs extends React.Component {
     render() {
         const defaultProps = {
             center: {
-              lat: 34.073280,
-              lng: -118.251410
+                lat: 24.356194,
+                lng: 54.515083                
             },
             zoom: 12
         };
@@ -21,7 +21,7 @@ class ContactUs extends React.Component {
             <>
                 <Header />
                 <div className="page-content">
-                <Banner title="Putting a plan to action, to assure your satisfaction!" pagename="Contact Us" bgimage={bnrimg}/>
+                <Banner title="Contact Us" pagename="Contact Us" bgimage={bnrimg}/>
                    
                     {/* SECTION CONTENTG START */}
                     <div className="section-full p-tb80 inner-page-padding">
@@ -76,14 +76,14 @@ class ContactUs extends React.Component {
                                                     <div className="icon-content">
                                                         <h5 className="m-t0 font-weight-500">Phone number</h5>
                                                         <p>(+971) 509 683 697</p>
-                                                        <p>(+971) 509 683 697</p>
+                                                        <p> (+971) 552 030 266 </p>
                                                     </div>
                                                 </div>
                                                 <div className="mt-icon-box-wraper left p-b40">
                                                     <div className="icon-xs"><i className="fa fa-envelope" /></div>
                                                     <div className="icon-content">
                                                         <h5 className="m-t0 font-weight-500">Email address</h5>
-                                                        <p>7xthemehelp@gmail.com</p>
+                                                        <p>info.ameerscrap@gmail.com</p>
                                                     </div>
                                                 </div>
                                                 <div className="mt-icon-box-wraper left">
@@ -100,17 +100,19 @@ class ContactUs extends React.Component {
                             </div>
                             <div className="gmap-outline">
                                 <div style={{ height: '400px', width: '100%' }}>
-                                    <GoogleMapReact
-                                        bootstrapURLKeys={{ key: "AIzaSyAfY1DRbspf6E3jYUso-PeI_tdfRXA59i0" }}
-                                        defaultCenter={defaultProps.center}
-                                        defaultZoom={defaultProps.zoom}
-                                    >
-                                        <AnyReactComponent
-                                        lat={34.073280}
-                                        lng={-118.251410}
-                                        text={<i className="fa fa-map-marker" />}
-                                        />
-                                    </GoogleMapReact>
+
+                                <div style={{ width: '100%', height: '450px' }}>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3634.7214358829456!2d54.5125083751473!3d24.356194378261943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDIxJzIyLjMiTiA1NMKwMzAnNTQuMyJF!5e0!3m2!1sen!2sae!4v1732361980689!5m2!1sen!2sae"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Ameer Scrap Location"
+            ></iframe>
+        </div>
                                 </div>
                             </div>
                         </div>

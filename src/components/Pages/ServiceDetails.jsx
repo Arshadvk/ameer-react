@@ -10,7 +10,11 @@ const details = [
         header: "Aluminum Scrap Buyers in Abu Dhabi",
         image: "aluminum/aluminum-1.jpg",
         img: "aluminum/aluminum.jpg",
-        description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? Look no further than Ameer Scrap & Metal Waste Trading LLC. We are dedicated to turning waste into wealth, one scrap at a time.",
+        subHeading1: "Transforming Aluminum Scrap into Value",
+        text1: "Ameer Scrap is your trusted partner for aluminum scrap recycling in Abu Dhabi. We are dedicated to helping you turn waste into wealth by providing competitive prices, professional service, and sustainable solutions. Whether you have cast aluminum, sheet aluminum, or extruded aluminum, our experienced team ensures that your materials are properly sorted, handled, and recycled to maximize their value. With a strong commitment to environmental care, we aim to reduce landfill waste and conserve natural resources, contributing to a cleaner and greener future for all.",
+        subHeading2: "Why Choose Ameer Scrap for Aluminum Recycling?",
+        text2: "At Ameer Scrap, we pride ourselves on offering exceptional service tailored to meet your specific needs. Our transparent pricing model ensures you receive the best rates for your scrap, while our convenient collection services make the process hassle-free. We bring years of expertise to the table, making us a reliable partner for all your aluminum recycling needs in Abu Dhabi. By choosing Ameer Scrap, you're not just selling scrap – you're joining us in building a sustainable future where waste is repurposed into valuable resources." ,
+        description: "Ameer Scrap is your trusted partner for transforming aluminum scrap into value in Abu Dhabi. Committed to sustainable recycling practices, we ensure proper handling, sorting, and recycling of your aluminum scrap while offering competitive market prices. By prioritizing environmental sustainability, we contribute to reducing landfill waste, conserving resources, and creating a greener future. With years of expertise, we handle all types of aluminum scrap efficiently and provide convenient collection services tailored to your needs. Choose Ameer Scrap for reliable service, transparent pricing, and a commitment to turning your scrap into a valuable resource."
     },
     {
         header: "Container Buyer In Abu Dhabi",
@@ -39,7 +43,13 @@ const details = [
     {
         header: "Steel Scrap In Abu Dhabi",
         image: "copper/copper-1.jpg",
-        img: "copper/copper-2.jpeg",
+        img: "steel/steel-2.jpg",
+        description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? Look no further than Ameer Scrap & Metal Waste Trading LLC. We are dedicated to turning waste into wealth, one scrap at a time.",
+    },
+    {
+        header: "Scrap Yard In Abu Dhabi",
+        image: "copper/copper-1.jpg",
+        img: "steel/steel-2.jpg",
         description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? Look no further than Ameer Scrap & Metal Waste Trading LLC. We are dedicated to turning waste into wealth, one scrap at a time.",
     },
 ];

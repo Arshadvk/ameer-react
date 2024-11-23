@@ -17,11 +17,12 @@ class Specialization extends React.Component {
                                         <img src={require('../../images/pic1.jpg')} alt=""/>
                                         <div className="figcaption">
                                             <h4>Construction</h4>
-                                            <p>Engineering your dreams with us.</p>
+                                            <p>Engineering your</p>
                                             <NavLink to="/project-detail" ><i className="link-plus bg-primary" /></NavLink>
                                         </div>
                                     </div>
                                 </div>
+
                                 <div className="col-lg-3 col-md-4  col-sm-6  col-xs-6  m-b30">
                                     <div className="image-effect-one hover-shadow">
                                         <img src={require('../../images/pic2.jpg')} alt="" />
@@ -43,6 +44,8 @@ class Specialization extends React.Component {
                                         </div>
                                     </div>
                                 </div>
+
+                             
 
                                 <div className="col-lg-3 col-md-4  col-sm-6  col-xs-6  m-b30">
                                     <div className="image-effect-one hover-shadow">

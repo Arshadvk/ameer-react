@@ -6,8 +6,10 @@ import About4 from './../Elements/About4';
 import Specialization4 from './../Elements/Specialization4';
 import Team3 from './../Elements/Team3';
 import AboutSummary from './../Elements/AboutSummary';
+import OurMission from '../Elements/OurMission';
+import AboutEle from '../Elements/About';
 
-var bnrimg = require('./../../images/banner/1.jpg');
+var bnrimg = require('./../../images/banner/4.webp');
 
 class About extends React.Component {
     render() {
@@ -16,11 +18,16 @@ class About extends React.Component {
 
                 <Header />
                 <div className="page-content">
-                    <Banner title="Creating quality urban lifestyles, building stronger communities." pagename="About Us" bgimage={bnrimg}/>
-                    <About4 />
-                    <Specialization4 />
-                    <Team3 />
-                    <AboutSummary />
+                    <Banner title="Best Scrap in Abu Dhabi" pagename="About Us" bgimage={bnrimg}/>
+                    {/* <About4/> */}
+                    <AboutEle />
+
+                    <OurMission />
+
+
+                    {/* <Specialization4 /> */}
+                    {/* <Team3 /> */}
+                    {/* <AboutSummary /> */}
 
                 </div>
 
