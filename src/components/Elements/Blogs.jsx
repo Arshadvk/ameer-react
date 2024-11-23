@@ -61,7 +61,7 @@ const service = [
     },
     {
         header: "Scrap Yard In Abu Dhabi",
-        image: require('./../../images/service/steel/steel-2.jpg'),
+        image: require('./../../images/service/yard/yard.jpg'),
         description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? ...",
     },
 ];
