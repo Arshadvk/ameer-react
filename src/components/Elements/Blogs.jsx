@@ -31,38 +31,45 @@ const blogs = [
 const service = [
     {
         header: "Aluminum Scrap Buyers in Abu Dhabi",
+        url : "aluminum-scrap-buyers-in-abu-dhabi" ,
         image: require('./../../images/service/aluminum/aluminum-1.jpg'),
-        description: "Ameer Scrap is your trusted partner for transforming aluminum scrap into value in Abu Dhabi  ..."
+        description: "Ameer Scrap is your trusted partner for aluminum scrap recycling in Abu Dhabi  ..."
     },
     {
         header: "Container Buyer In Abu Dhabi",
+        url : "container-buyer-in-abu-dhabi" ,
         image: require('./../../images/service/container/container-2.jpeg'),
-        description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? ...",
+        description: "Looking to sell unused scrap containers? Ameer Scrap is your go-to partner ...",
     },
     {
         header: "Copper Scrap Buyer In Abu Dhabi",
+        url : "copper-scrap-buyers-in-abu-dhabi" ,
         image: require('./../../images/service/copper/copper-1.jpg'),
-        description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? ...",
+        description: "At Ameer Scrap, we’re committed to offering top-notch scrap buying services ...",
     },
     {
         header: "Industrial Scrap Buyer In Abu Dhabi",
+        url : "industrial-scrap-buyers-in-abu-dhabi" ,
         image: require('./../../images/service/industrial/industrial-2.webp'),
-        description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? ...",
+        description: "At Ameer Scrap, we specialize in buying all types of industrial scrap, offering ...",
     },
     {
         header: "Metal Scrap Dealer In Abu Dhabi",
+        url : "metal-scrap-dealer-in-abu-dhabi" ,
         image: require('./../../images/service/metal/metal-2.webp'),
-        description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? ...",
+        description: "At Ameer Scrap, we specialize in buying and selling all types of scrap metals ...",
     },
     {
         header: "Steel Scrap In Abu Dhabi",
+        url : "steel-scrap-in-abu-dhabi" ,
         image: require('./../../images/service/steel/steel-2.jpg'),
-        description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? ...",
+        description: "Ameer Scrap, we specialize in buying steel scrap and turning it into a valuable ...",
     },
     {
         header: "Scrap Yard In Abu Dhabi",
+        url : "scrap-yard-in-abu-dhabi" ,
         image: require('./../../images/service/yard/yard.jpg'),
-        description: "Your Trusted Aluminum Scrap Buyers in Abu Dhabi Are you looking for reliable aluminum scrap buyers in Abu Dhabi? ...",
+        description: "Looking for a reliable scrap yard in Abu Dhabi? Ameer Scrap offers eco-friendly ...",
     },
 ];
 
@@ -87,7 +94,7 @@ class Blogs extends React.Component {
                         <div className="section-content">
                             <div className="row">
                                 {service.map((item, index) => (
-                                    <div className="col-md-6 col-sm-6 col-xs-6" key={index}>
+                                    <div className="col-md-6 col-sm-6 col-xs-12" key={index}>
                                         <div className="mt-box blog-post latest-blog-3 date-style-1 bg-white m-b30">
                                             <div className="mt-post-media mt-img-overlay7">
                                                 <NavLink to="/post-image"><img src={item.image} alt=""/></NavLink>
@@ -102,7 +109,7 @@ class Blogs extends React.Component {
                                                         <p>{item.description}</p>
                                                     </div>
                                                     <div className="readmore-line">
-                                                        <span><NavLink to="/post-image" className="site-button-link" data-hover="Read More">Read More <i className="fa fa-angle-right arrow-animation" /></NavLink></span>
+                                                        <span><NavLink to={`/service/${item.url}`} className="site-button-link" data-hover="Read More">Read More <i className="fa fa-angle-right arrow-animation" /></NavLink></span>
                                                     </div>
                                                 </div>
                                             </div>
