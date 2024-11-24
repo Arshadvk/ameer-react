@@ -12,7 +12,7 @@ class Specialization extends React.Component {
                         {/* IMAGE CAROUSEL START */}
                         <div className="section-content">
                             <div className="row">
-                                <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6 m-b30">
+                                <div className="col-lg-4 col-md-4 col-sm-6 col-xs-6 m-b30">
                                     <div className="image-effect-one hover-shadow">
                                         <img src={require('../../images/pic1.jpg')} alt=""/>
                                         {/* <div className="figcaption">
@@ -23,18 +23,9 @@ class Specialization extends React.Component {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-3 col-md-4  col-sm-6  col-xs-6  m-b30">
-                                    <div className="image-effect-one hover-shadow">
-                                        <img src={require('../../images/pic2.jpg')} alt="" />
-                                        {/* <div className="figcaption bg-dark">
-                                            <h4>Renovation</h4>
-                                            <p>Dazzling Design</p>
-                                            <NavLink to="/project-detail" ><i className="link-plus bg-primary" /></NavLink>
-                                        </div> */}
-                                    </div>
-                                </div>
+                               
 
-                                <div className="col-lg-3 col-md-4  col-sm-6  col-xs-6  m-b30">
+                                <div className="col-lg-4 col-md-4  col-sm-6  col-xs-6  m-b30">
                                     <div className="image-effect-one hover-shadow">
                                         <img src={require('../../images/pic3.jpg')} alt="" />
                                         {/* <div className="figcaption bg-dark">
@@ -47,7 +38,7 @@ class Specialization extends React.Component {
 
                              
 
-                                <div className="col-lg-3 col-md-4  col-sm-6  col-xs-6  m-b30">
+                                <div className="col-lg-4 col-md-4  col-sm-6  col-xs-6  m-b30">
                                     <div className="image-effect-one hover-shadow">
                                         <img src={require('../../images/pic4.jpg')} alt="" />
                                         {/* <div className="figcaption bg-dark">
