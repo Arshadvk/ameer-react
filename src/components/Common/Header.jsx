@@ -6,6 +6,8 @@ var bnr = require('./../../images/background/bg-5.png');
 
 class Header extends React.Component {
 
+
+
     constructor(props){
         super(props);
         this.state = {logo: require('./../../images/logo/logo.png')};

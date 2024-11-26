@@ -1,4 +1,4 @@
-import React from 'react';
+import React , { useEffect }  from 'react';
 import Header from './../Common/Header';
 import Footer from './../Common/Footer';
 import Slider from './../Elements/Slider';
@@ -12,11 +12,15 @@ import OurProject from './../Elements/OurProject';
 import Blogs from './../Elements/Blogs';
 import Testimonials from './../Elements/Testimonials';
 import Banner from '../Elements/Banner-1';
+import CustomTitle from '../Elements/CustomTitle';
 
 class Home extends React.Component {
+    
     render() {
+        
         return (
             <>
+                <CustomTitle title={"Scrap Trading Company In Abu Dhabi"}/>
                 <Header />
                 <div className="page-content">
                     <Slider />
