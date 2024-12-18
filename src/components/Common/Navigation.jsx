@@ -58,10 +58,10 @@ class Navigation extends React.Component {
                                 </li>
                                 <li>
                                     <NavLink
-                                        to="/service/container-buyer-in-abu-dhabi"
+                                        to="/service/ac-scrap-buyer-in-abu-dhabi"
                                         className={({ isActive }) => (isActive ? 'active' : '')}
                                     >
-                                        Container Buyer
+                                        Ac Scrap-Buyer
                                     </NavLink>
                                 </li>
                                 <li>

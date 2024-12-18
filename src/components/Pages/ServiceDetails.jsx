@@ -16,13 +16,13 @@ const details = [
         text2: "At Ameer Scrap, we pride ourselves on offering exceptional service tailored to meet your specific needs. Our transparent pricing model ensures you receive the best rates for your scrap, while our convenient collection services make the process hassle-free. We bring years of expertise to the table, making us a reliable partner for all your aluminum recycling needs in Abu Dhabi. By choosing Ameer Scrap, you're not just selling scrap – you're joining us in building a sustainable future where waste is repurposed into valuable resources.",
     },
     {
-        header: "Container Buyer In Abu Dhabi",
-        image: "container/container-1.jpg",
-        banner: "container/container-2.jpeg",
-        subHeading1: "Welcome to Ameer Scrap – Your Reliable Container Buyer in Abu Dhabi",
-        text1: "Looking to sell unused scrap containers? Ameer Scrap is your go-to partner in Abu Dhabi for efficient and profitable scrap management. We offer competitive prices and seamless services to make the entire process hassle-free. With a strong focus on sustainability, we ensure your unwanted containers are repurposed responsibly. Choose Ameer Scrap for fair pricing, reliable pick-up services, and an eco-conscious approach to scrap recycling.",
-        subHeading2: "Turn Scrap Containers into Value with Ameer Scrap in Abu Dhabi",
-        text2: "Ameer Scrap specializes in buying scrap containers, offering top market prices and convenient pick-up services in Abu Dhabi. Our team ensures a smooth and transparent process from start to finish, valuing honesty and customer satisfaction. More than just a buyer, we provide comprehensive recycling solutions that prioritize environmental sustainability. Connect with Ameer Scrap today to transform your unused containers into cash while contributing to a greener planet.",
+        header: "AC Buyer In Abu Dhabi",
+        image: "ac/ac1.jpg",
+        banner: "ac/ac.jpg",
+        subHeading1: "Welcome to Ameer Scrap – Your Trusted A/C Scrap Buyer in Abu Dhabi" ,
+        text1: "Looking to sell old or unused air conditioning units? Ameer Scrap is your reliable partner in Abu Dhabi for efficient and profitable A/C scrap management. We offer competitive prices and hassle-free services to ensure a seamless process. Committed to sustainability, we responsibly recycle your A/C scrap, helping to reduce environmental impact. Choose Ameer Scrap for fair pricing, dependable pick-up services, and an eco-conscious approach to recycling your air conditioning units." ,
+        subHeading2: "Turn Old A/C Units into Value with Ameer Scrap in Abu Dhabi" ,
+        text2: "Ameer Scrap specializes in buying A/C scrap, offering top market prices and convenient pick-up services across Abu Dhabi. Our experienced team ensures a transparent and smooth process, placing honesty and customer satisfaction at the forefront. Beyond just buying, we provide sustainable recycling solutions to protect the environment. Connect with Ameer Scrap today to transform your old air conditioners into cash while supporting a greener, cleaner planet."
     },
     {
         header: "Copper Scrap Buyer In Abu Dhabi",
@@ -74,7 +74,7 @@ const details = [
 const PostImage = () => {
     const { id } = useParams(); // Access the 'id' parameter from the URL
     let num = id === "aluminum-scrap-buyers-in-abu-dhabi" ? 0 :
-        id === "container-scrap-buyers-in-abu-dhabi" ? 1 :
+        id === "ac-scrap-buyer-in-abu-dhabi" ? 1 :
             id === "copper-scrap-buyers-in-abu-dhabi" ? 2 :
                 id === "industrial-scrap-buyers-in-abu-dhabi" ? 3 :
                     id === "metal-scrap-dealer-in-abu-dhabi" ? 4 :

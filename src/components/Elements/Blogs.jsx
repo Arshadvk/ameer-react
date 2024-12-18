@@ -36,11 +36,12 @@ const service = [
         description: "Ameer Scrap is your trusted partner for aluminum scrap recycling in Abu Dhabi  ..."
     },
     {
-        header: "Container Buyer In Abu Dhabi",
-        url : "container-buyer-in-abu-dhabi" ,
-        image: require('./../../images/service/container/container-2.jpeg'),
-        description: "Looking to sell unused scrap containers? Ameer Scrap is your go-to partner ...",
+        header: "A/C Scrap Buyer in Abu Dhabi",
+        url: "ac-scrap-buyer-in-abu-dhabi",
+        image: require('./../../images/service/ac/ac1.jpg'),
+        description: "Looking to sell old or unused air conditioning units? Ameer Scrap is your ...",
     },
+    
     {
         header: "Copper Scrap Buyer In Abu Dhabi",
         url : "copper-scrap-buyers-in-abu-dhabi" ,
