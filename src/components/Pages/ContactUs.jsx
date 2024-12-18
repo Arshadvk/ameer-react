@@ -90,7 +90,7 @@ class ContactUs extends React.Component {
                                                     <div className="icon-xs"><i className="fa fa-map-marker" /></div>
                                                     <div className="icon-content">
                                                         <h5 className="m-t0 font-weight-500">Address info</h5>
-                                                        <p>10 Street 7 Musaffah , Abu Dhabi Uae</p>
+                                                        <p>10 Street 32 Musaffah , Abu Dhabi Uae</p>
                                                     </div>
                                                 </div>
                                             </div>
