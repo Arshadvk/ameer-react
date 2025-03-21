@@ -76,7 +76,7 @@ class Footer extends React.Component {
                         <div className="container">
                             <div className="row">
                                 <div className="mt-footer-bot-center">
-                                    <span className="copyrights-text">© 2024 All Rights Reserved  </span>
+                                    <span className="copyrights-text">©  All Rights Reserved 2024</span>
                                 </div>
                             </div>
                         </div>
